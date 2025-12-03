@@ -1,0 +1,13 @@
+my.vultr.com/deploy
+
+Type: Shared CPU
+
+Choose the closest data center
+
+Name: vc2-6c-16gb
+vCPU: 6 vCPUs
+Memory: 16 GB
+Storage: 320 GB SSD
+Bandwidth: 5 TB/mo
+
+Ubuntu 24.04 x64
