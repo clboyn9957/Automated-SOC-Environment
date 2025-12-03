@@ -1,0 +1,13 @@
+my.vultr.com/deploy
+
+Shared CPU 
+
+Choose closest data center 
+
+Name: vc2-4c-8gb
+vCPU: 4 vCPUs
+Memory: 8GB
+Storage: 160 GB SSD
+Bandwidth: 4TB/mo
+
+Type: Ubuntu 24.04 x64
